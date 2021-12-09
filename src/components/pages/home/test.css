@@ -1,0 +1,107 @@
+.intro-header {
+  display: flex;
+  height: 620px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #03a9f4;
+  background-position: 0px 0px;
+  background-size: cover;
+  color: hsla(228, 0%, 100%, 1);
+}
+
+.heading-jumbo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 64px;
+  line-height: 80px;
+  text-transform: none;
+}
+
+.heading-jumbo:tiny {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.heading-jumbo:small {
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.heading-jumbo:medium {
+  font-size: 56px;
+  line-height: 70px;
+}
+
+.paragraph-bigger {
+  margin-bottom: 10px;
+  opacity: 1;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.paragraph-bigger:small {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.paragraph-bigger.cc-bigger-white-light {
+  opacity: 0.6;
+}
+
+.button {
+  padding-top: 12px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #1a1b1f;
+  transition-property: background-color, opacity, color;
+  transition-duration: 400ms, 400ms, 400ms;
+  transition-timing-function: ease, ease, ease;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:medium {
+  justify-content: center;
+}
+
+.button:main_hover {
+  background-color: #32343a;
+  color: white;
+}
+
+.button:main_active {
+  background-color: #43464d;
+}
+
+.button.cc-jumbo-button {
+  padding-top: 16px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+  padding-left: 35px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.button.cc-jumbo-button.cc-jumbo-white {
+  background-color: hsla(228, 0%, 100%, 1);
+  color: hsla(0, 0%, 0%, 1);
+}
+
+.button.cc-jumbo-button.cc-jumbo-white:main_hover {
+  background-color: hsla(228, 0%, 94.67%, 1);
+}
+
+.button.cc-jumbo-button.cc-jumbo-white:main_active {
+  background-color: hsla(0, 0%, 88.24%, 1);
+}

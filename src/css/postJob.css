@@ -1,0 +1,58 @@
+.postWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.postJob {
+  padding-top: 50px;
+  width: 80%;
+}
+
+.postJobForm {
+  position: relative;
+}
+
+.postImg {
+  width: 20vw;
+  height: 20vw;
+  background-repeat: 10px;
+  object-fit: cover;
+}
+
+.formGroup {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.postIcon {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+}
+
+.formInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+.formInputText {
+  font-size: 20px;
+}
+
+.submit {
+  color: white;
+  background-color: teal;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 30px;
+}
